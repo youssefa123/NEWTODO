@@ -2,6 +2,21 @@ const express = require('express')
 //akes express library and runs it 
 const app = express();
 const cors = require('cors')
+const pool = require('./db')
+
+
+//ROUTES//
+
+//create a todo
+
+//get all todos
+
+//get a todo
+
+//update a todo
+
+//delete a todo
+
 
 //Middle ware
 app.use(cors())
